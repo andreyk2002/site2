@@ -1,0 +1,186 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 100%;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+a:hover{
+    color:#7438ff;
+    text-decoration: none;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+nav{
+    background-color: #434042;
+    height: 22px;
+    opacity: 0.9;
+}
+
+nav a{
+    color:white;
+    float:right;
+    font-family: 'Comfortaa', cursive;
+    font-size: smaller;
+    margin-right: 15px;
+    padding: 5px;
+}
+nav a:hover{
+    color:#fed136;
+}
+div{
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 75px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 75px;
+
+    font-family: 'Lobster', cursive;
+}
+h3{
+    font-size: 37px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+#titles__first{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 180px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ff876e;
+}
+.fa-times{
+    color: white;
+    padding-left: 25px;
+}
+
+ .container {
+    background: url(../img/boardgames.jpg) no-repeat center top / cover;
+
+    height: 100vh;
+}
+
+
+
+.button {
+    background: #fed136;
+    color: #484543;
+    border-radius: 7px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.button:hover{
+    background: red;
+    color: wheat;
+}
+
+#mobile-menu{
+    float: left;
+    padding-left: 15px;
+    background-color: #d9cb99;
+    width: 30%;
+    opacity: 90%;
+
+}
+
+.MenuBtn{
+    display: block;
+    width: 220px;
+    padding: 15px 0 ;
+    background: #509afe;
+   color: white;
+    border-radius: 27px;
+    text-align: center;
+
+}
+.MenuBtn:hover{
+    background: #d9cb99;
+    color: #1d1d1d;
+}
+
+#text{
+    width: 100%;
+    float:right;
+    padding-left:30px;
+    font-size: 23px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#first-text{
+    text-align: center;
+    padding-left:200px ;
+    padding-right:200px ;
+}
+#second-text{
+    float:left;
+    font-size: 19px;
+    width:50%;
+}
+#FirstSection img{
+    width:15%;
+    float:right;
+    padding-right: 25%;
+    padding-top: 160px;
+
+}
+
+@media(max-width:984px)
+{
+   nav{
+       display: none;
+       visibility: hidden;
+   }
+    #FirstSection{
+        width:67%;
+        float:left;
+    }
+
+   #first-text{
+       padding-left: 30px;
+       padding-right: 30px;
+       font-size: 20px;
+   }
+   #second-text{
+       font-size: 15px;
+       width: 60%;
+   }
+    #FirstSection img{
+        padding-top: 330px;
+    }
+}
+@media(min-width: 985px){
+
+    #mobile-menu{
+        display: none;
+        visibility: hidden;
+    }
+    #FirstSection{
+        width:100% ;
+        float:left;
+    }
+
+}
