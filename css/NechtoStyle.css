@@ -1,13 +1,14 @@
 body{
     padding: 0;
     margin: 0;
+    background: url(../img/beach-1824855.jpg) repeat-y center top / cover;
 }
 
 #wrapper{
     width: 100%;
 }
 a{
-    color: blue;
+    color: #cc1a00;
     text-decoration: none;
     transition: all.6s ease;
     -o-transition: all.6s ease;
@@ -42,15 +43,24 @@ nav a:hover{
 div{
     box-sizing: border-box;
 }
+em{
+     font-family: 'Comfortaa', cursive;
+ }
 h1 {
-    font-size: 75px;
-    color: #000000;
+    font-size: 65px;
+    color: #93fe00;
     text-transform: uppercase;
     text-align: center;
-    margin: 75px;
+    margin: 55px;
 
     font-family: 'Lobster', cursive;
 }
+h2{
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
 h3{
     font-size: 37px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -58,63 +68,47 @@ h3{
     text-align: center;
 }
 
-table{
-    font-family: "Roboto Thin", serif;
-    font-size: 18px;
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 7px;
-    background-color: #707378;
-
-    border:16px solid #85bcd3;
-    border-radius:16px;
-}
- td{
-     padding: 10px;
-     background-color: #85bcd3;
- }
- th{
-    color: white;
-     font-size: 20px;
-     text-align: center;
- }
-#titles__first{
-    font-size: 45px;
-    text-transform: uppercase;
+h4{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #509afe;
     text-align: center;
-    margin-left: 30%;
-    margin-top: 180px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    color: #ff876e;
-    overflow: hidden;
-    display: inline-block;
 }
+
+.titles h1{
+    margin-top: 0px;
+    padding-top:400px;
+}
+
 .fa-times{
     color: white;
     padding-left: 25px;
 }
 
- .container {
-    background: url(../img/boardgames.jpg) no-repeat center top / cover;
+.container {
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(../img/Nmain.jpg);
 
     height: 100vh;
 }
 
 
-
 .button {
     background: #fed136;
     color: #484543;
+    border-radius: 7px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 7px;
-    display: block;
-    width: 240px;
-    padding: 20px 0;
-    margin: 60px auto 0;
+    margin-top: 80px;
 }
 
 .button:hover{
@@ -122,23 +116,23 @@ table{
     color: wheat;
 }
 
- #mobile-menu{
-     width:100%;
-     padding-top: 5px;
+#mobile-menu{
+    width:100%;
+    padding-top: 5px;
 
- }
+}
 #mobile-menu span{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 11px;
 
 }
 .MenuBtn{
-     display: inline-block;
+    display: inline-block;
     width: 143px;
     padding: 10px 0;
     margin-bottom: 10px;
     background: #509afe;
-   color: white;
+    color: white;
     border-radius: 27px;
     text-align: center;
 
@@ -147,58 +141,116 @@ table{
     background: white;
     color: #1d1d1d;
 }
+#img1,#img2,#img5{
+    overflow: hidden;
+    width: 40%;
+    height: 500px;
+    padding: 10px;
+    background-color: #cc8c5e;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    opacity: 90%;
+    border-radius: 20px;
+}
+#img3,#img4{
+    overflow: hidden;
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    background-color: #cc8c5e;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    opacity: 90%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.sit{
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+}
+#img1 img{
+    padding-right: 5%;
+    padding-left: 15%;
+    padding-top:10%;
 
+    height: 75%;
+    max-width:90%;
+
+    overflow: hidden;
+}
+#img3 img{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+
+}
+#img4 img{
+    max-width:30%;
+    height: 85%;
+    margin-left: 5%;
+}
+#img2 img{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top:10%;
+    height: 75%;
+    max-width:90%;
+    overflow: hidden;
+}
+#img5 img{
+    padding-right: 5%;
+    padding-left: 15%;
+    padding-top:5%;
+    height: 85%;
+    max-width:90%;
+    overflow: hidden;
+}
+#img5{
+    margin-left:25%;
+}
+#img2{
+  float: right;
+}
+#img1{
+    float:left;
+}
+#FirstSection,#Strategy,#mark{
+    margin-left: 5%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    width: 90%;
+    padding: 30px 30px 40px 20px;
+    overflow: hidden;
+}
 #FirstSection{
-
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 80px;
+    background-color: #166058;
+    color: white;
+}
+#Strategy{
+    background-color: #b670a5;
+}
+#mark{
+    margin-bottom: 20px;
+    background-color: #fed136;
+}
+#mark h1{
+    color: #cc1a00;
+}
+.mark{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #FirstSection>h3{
     font-size: 55px;
 }
-#text{
-    border-radius: 16px;
-    padding-top:25px;
-    padding-left: 80px;
-    padding-right: 80px;
-    float:left;
-    max-width: 47%;
-    margin-left: 2%;
-    margin-right:1%;
-    background-color: #a0ffe2;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size:15px ;
-    height: 600px;
-    overflow:hidden;
-}
-#img{
-    border-radius: 16px;
-    height: 601px;
-}
 
-#FirstSection img{
-    float:left;
-    max-width:47%;
-    height: 600px;
-    margin-bottom: 130px;
-}
-#text h3{
-    font-family: 'Comfortaa', cursive;
-    font-size: 40px;
-    font-weight: bolder;
-    color: #434042;
-}
+.mark{
 
-#SecondSection{
-    width: 95%;
-    border-radius: 16px;
-    background-color: #FF7A6D;
-    margin-left: 2%;
-    margin-right: 2%;
-     padding-left: 80px;
-    padding-right: 80px;
-    overflow:hidden;
+    background-color: #22cc00;
+    border-radius: 15px;
+    color: white;
+    padding: 4px 30px;
     margin-bottom: 30px;
 
 }
@@ -223,26 +275,16 @@ table{
 
 }
 
-#table{
-    background-color: #fed136;
-    width: 95%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    padding: 15px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 22px;
-    border-radius: 16px;
-}
-
 .rounded {
+    padding-left: 5%;
     counter-reset: li;
     list-style: none;
     font: 18px "Trebuchet MS", "Lucida Sans";
-    padding: 0;
+
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 .rounded span {
-    width: 320px;
+    width: 90%;
     position: relative;
     display: inline-block;
     padding: .4em .4em .4em 2em;
@@ -255,7 +297,8 @@ table{
 }
 
 .rounded span:hover {
-    background: #E9E4E0;}
+    background: #E9E4E0;
+}
 .rounded span:hover:before {
     transform: rotate(360deg);
 }
@@ -276,42 +319,7 @@ table{
     border-radius: 2em;
     transition: all .3s ease-out;
 }
-/*
-.vi{
-    max-width: 250px;
-    height:245px;
-    width:30%;
-    float:left;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #cc6e16 ;
-    border-radius: 6px;
-    background-color: black;
-    box-sizing: border-box;
 
-   ;
-}
-.vi>img{
-    max-width: 250px;
-    width:100%;
-    height:200px;
-    border-radius: 6px;
-
-}
-.vi>span{
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 0.8em;
-    width:80%;
-    float:left;
-    margin: 7px 10%;
-    text-align: center;
-}
-.vi:hover{
-    background-color: #fed136;
-}
-*/
 footer{
     float:left;
     background-color: black;
@@ -389,11 +397,11 @@ footer{
 }
 
 @media(min-width: 985px)and (max-width: 1247px){
-#text{
-    font-size: 13px;
-    padding-right: 67px;
-    padding-left: 65px;
-}
+    #text{
+        font-size: 13px;
+        padding-right: 67px;
+        padding-left: 65px;
+    }
 }
 @media(max-width: 984px){
 

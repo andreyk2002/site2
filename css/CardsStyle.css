@@ -1,13 +1,14 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #E9E4E0;
 }
 
 #wrapper{
     width: 100%;
 }
 a{
-    color: blue;
+    color: #ff0000;
     text-decoration: none;
     transition: all.6s ease;
     -o-transition: all.6s ease;
@@ -44,13 +45,19 @@ div{
 }
 h1 {
     font-size: 75px;
-    color: #000000;
+    color: #e47441;
     text-transform: uppercase;
     text-align: center;
     margin: 75px;
 
     font-family: 'Lobster', cursive;
 }
+h2{
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
 h3{
     font-size: 37px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -58,31 +65,19 @@ h3{
     text-align: center;
 }
 
-table{
-    font-family: "Roboto Thin", serif;
-    font-size: 18px;
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 7px;
-    background-color: #707378;
-
-    border:16px solid #85bcd3;
-    border-radius:16px;
+h4{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #509afe;
+    text-align: center;
 }
- td{
-     padding: 10px;
-     background-color: #85bcd3;
- }
- th{
-    color: white;
-     font-size: 20px;
-     text-align: center;
- }
+
+
 #titles__first{
     font-size: 45px;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 38%;
     margin-top: 180px;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #ff876e;
@@ -94,26 +89,25 @@ table{
     padding-left: 25px;
 }
 
- .container {
-    background: url(../img/boardgames.jpg) no-repeat center top / cover;
+.container {
+    background: url(../img/igrat-v-duraka.jpg) no-repeat center top / cover;
 
     height: 100vh;
 }
 
 
-
 .button {
     background: #fed136;
     color: #484543;
+    border-radius: 7px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
-    border-radius: 7px;
-    display: block;
-    width: 240px;
-    padding: 20px 0;
     margin: 60px auto 0;
 }
 
@@ -122,23 +116,23 @@ table{
     color: wheat;
 }
 
- #mobile-menu{
-     width:100%;
-     padding-top: 5px;
+#mobile-menu{
+    width:100%;
+    padding-top: 5px;
 
- }
+}
 #mobile-menu span{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 11px;
 
 }
 .MenuBtn{
-     display: inline-block;
+    display: inline-block;
     width: 143px;
     padding: 10px 0;
     margin-bottom: 10px;
     background: #509afe;
-   color: white;
+    color: white;
     border-radius: 27px;
     text-align: center;
 
@@ -152,7 +146,6 @@ table{
 
     width: 100%;
     padding-top: 30px;
-    margin-bottom: 80px;
 }
 #FirstSection>h3{
     font-size: 55px;
@@ -163,26 +156,19 @@ table{
     padding-left: 80px;
     padding-right: 80px;
     float:left;
-    max-width: 47%;
+    max-width:95%;
     margin-left: 2%;
     margin-right:1%;
+    margin-bottom: 50px;
     background-color: #a0ffe2;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size:15px ;
+    font-size:20px ;
     height: 600px;
     overflow:hidden;
 }
-#img{
-    border-radius: 16px;
-    height: 601px;
-}
 
-#FirstSection img{
-    float:left;
-    max-width:47%;
-    height: 600px;
-    margin-bottom: 130px;
-}
+
+
 #text h3{
     font-family: 'Comfortaa', cursive;
     font-size: 40px;
@@ -190,15 +176,69 @@ table{
     color: #434042;
 }
 
-#SecondSection{
+#Durak{
     width: 95%;
     border-radius: 16px;
-    background-color: #FF7A6D;
+    background-color: #fed136;
     margin-left: 2%;
     margin-right: 2%;
-     padding-left: 80px;
+    padding-left: 80px;
     padding-right: 80px;
     overflow:hidden;
+    margin-bottom: 50px;
+}
+
+#Durak p{
+
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:20px ;
+
+ }
+
+#Dollar,#Bullshit,#Poker{
+    width: 95%;
+    border-radius: 16px;
+    background-color: #67fe39;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow:hidden;
+    margin: 50px 2% 50px;
+}
+
+#Dollar p,#Bullshit p,#Poker p{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:20px ;
+
+}
+
+
+#Bullshit{
+    background-color: darkviolet;
+}
+#Bullshit ul
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+}
+.advices{
+     color: #ffdf74;
+}
+
+#Poker{
+    background-color: #85bcd3;
+}
+#Poker ul{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+}
+.mark{
+
+    background-color: darkblue;
+    border-radius: 15px;
+    color: white;
+    padding: 4px 30px;
     margin-bottom: 30px;
 
 }
@@ -223,17 +263,6 @@ table{
 
 }
 
-#table{
-    background-color: #fed136;
-    width: 95%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    padding: 15px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 22px;
-    border-radius: 16px;
-}
-
 .rounded {
     counter-reset: li;
     list-style: none;
@@ -242,7 +271,7 @@ table{
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 .rounded span {
-    width: 320px;
+    width: 90%;
     position: relative;
     display: inline-block;
     padding: .4em .4em .4em 2em;
@@ -255,7 +284,8 @@ table{
 }
 
 .rounded span:hover {
-    background: #E9E4E0;}
+    background: #E9E4E0;
+}
 .rounded span:hover:before {
     transform: rotate(360deg);
 }
@@ -276,42 +306,24 @@ table{
     border-radius: 2em;
     transition: all .3s ease-out;
 }
-/*
-.vi{
-    max-width: 250px;
-    height:245px;
-    width:30%;
-    float:left;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #cc6e16 ;
-    border-radius: 6px;
-    background-color: black;
-    box-sizing: border-box;
 
-   ;
-}
-.vi>img{
-    max-width: 250px;
-    width:100%;
-    height:200px;
-    border-radius: 6px;
 
+#chest{
+    width: 95%;
+    border-radius: 16px;
+    background-color: #ff8443;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow:hidden;
 }
-.vi>span{
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 0.8em;
-    width:80%;
-    float:left;
-    margin: 7px 10%;
-    text-align: center;
+
+#chest p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:20px ;
 }
-.vi:hover{
-    background-color: #fed136;
-}
-*/
+
 footer{
     float:left;
     background-color: black;
@@ -389,11 +401,11 @@ footer{
 }
 
 @media(min-width: 985px)and (max-width: 1247px){
-#text{
-    font-size: 13px;
-    padding-right: 67px;
-    padding-left: 65px;
-}
+    #text{
+        font-size: 13px;
+        padding-right: 67px;
+        padding-left: 65px;
+    }
 }
 @media(max-width: 984px){
 
@@ -422,3 +434,4 @@ footer{
         visibility: hidden;
     }
 }
+
